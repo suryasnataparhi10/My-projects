@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <!-- <p>UI/UX Design</p> -->
+                <h1>Hi,I'm <span>Suryasnata</span> <br>Parhi from Odisha</h1>
+            </div>
+        </div>
+    </div>
+    <!------------ Here we add About-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile.jpg" alt="profile">
+                </div>
+                <div class="about-col-2"><h1 class="sub-title">About Me
+                    <P></P>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C</span><br></li>
+                            <li><span>Java</span><br></li>
+                            <li><span>HTML5</span><br></li>
+                            <li><span>CSS</span><br></li>
+                            <li><span>Javascript</span><br></li>
+                            <li><span>GIT & GITHub</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MCA</span><br>Trident Academy of Technology,Bhubaneswar</li>
+                            <li><span>B.Sc. in Physics</span><br>Udaynath Autonomous College of Science and Technology,Cuttack<br>67.7%</li>
+                            <li><span>CHSE in Science</span><br>Gonasika Higher Secondary School,Kendujhar <br>75.5%</li>
+                            <li><span>BSE</span><br>Bhadrakali Nodal High School,Bhadrak <br>84.5%</li>
+                        </ul>
+                    </div>
+                </h1></div>
+            </div>
+        </div>
+    </div>
+
+    <!------------- SERVICES-------------- -->
+    <!-----------------------------------------PORTFOLIO------------------------------------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image1.jpg" alt="image1" class="my">
+                    <div class="layer">
+                        <h3>Social Media App.
+                            <p>the app
+                               <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </p>
+                        </h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image2.jpg" alt="image2" class="my">
+                    <div class="layer">
+                        <h3>Social Media App.
+                            <p>the app
+                               <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                            </p>
+                        </h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img3.jpg" alt="image3">
+                    <div class="layer">
+                        <h3>Social Media App.
+                            <p>the app
+                               <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </p>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="port.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <!-- html -->
+    <form name="myForm" onsubmit="return form()">
+        <div class="name">
+          <label for="user_name">Name :</label>
+             <input type="text" id="user_name" class="form-design" value="" placeholder="Enter your name"> <span> <b id="name-error"></b> </span>
+        </div>   
+        <div class="email">
+          <label for="user_email">Email :</label>
+             <input type="text" id="user_email" class="form-design" value="" placeholder="Enter your email" autocomplete="off"> <span> <b id="email-error"></b> </span>
+        </div>   
+      <div class="Phone">
+          <label for="user_num">Phone :</label>
+             <input type="text" id="user_num" class="form-design" value="" placeholder="Enter your phone number"> <span> <b id="phone-error"></b> </span>
+        </div>
+         <div class="pass">
+          <label for="user_pass">New Password :</label>
+             <input type="password" id="user_pass" class="form-design" value="" placeholder="Enter your password"> <span> <b id="pass-error"></b> </span>
+        </div> 
+        <div class="pass1">
+          <label for="confirm">Confirm Password :</label>
+          <input type="password" id="confirm" class="form-design" value="" placeholder="Confirm your password"> <span> <b id="pass1-error"></b></span>
+        </div> 
+        <div class="dob">
+          <label for="date">Date of birth :</label>
+             <input type="date" id="date" class="form-design" value="" placeholder="Enter your date of birth"> <span> <b id="dob-error"></b> </span>
+        </div> 
+        <div class="clg">
+          <label for="clg">College :</label>
+             <input type="text" id="clg" class="form-design" value="" placeholder="Enter your date college/university"> <span> <b id="clg-error"></b> </span>
+        </div> 
+        <input type="submit" value="submit"class="submit">
+    </form>
+
+
+    <script src="Form.js"></script>
+</body>
+</html>

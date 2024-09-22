@@ -1,0 +1,44 @@
+*{
+    font-family: serif;
+}    
+body{
+    padding: 10px 50px;
+}
+.form-design{
+    font-size: 20px;
+}
+form input{
+    width: 40%;
+    padding: 8px 10px;
+    border: 1px solid blue;
+    margin: 3px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+#name-error , #email-error , #phone-error  , #pass-error , #pass1-error{
+    color: red;
+}
+.submit{
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    margin: 20px 20px;
+    /* opacity: 0.6; */
+    background-color: rgb(19, 19, 207);
+    color: white;
+}
+
+
+.dob::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer; 
+ }
